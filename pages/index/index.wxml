@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='canvas-area'>
+    <canvas canvas-id='myCanvas' class='myCanvas' disable-scroll='false' bindtouchstart='touchstart' bindtouchmove='touchmove'></canvas>
+  </view>
+  <view class='canvas-tools'>
+    <view class='box box1' bindtap='penselect' data-param="5"></view>
+    <view class='box box2' bindtap='penselect' data-param="15"></view>
+    <view class='box box3' bindtap='colorselect' data-param="#cc0033"></view>
+    <view class='box box4' bindtap='colorselect' data-param="#ff9900"></view>
+    <view class='box box5' bindtap='colorselect' data-param="#f8f8f8"></view>
+  </view>
+</view>
